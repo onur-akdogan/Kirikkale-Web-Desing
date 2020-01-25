@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+html,
+body {
+  /* background-color: rgb(206, 206, 206); */
+  background-image: url("medya/flukkevler.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+/*   ******************navbar bölümü***********************/
+.ekran .navbar {
+  background-color: rgb(48, 48, 48);
+    overflow: hidden;
+}
+
+.ekran .navbar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.ekran .navbar a:hover {
+  background-color: brown;
+  color: white;
+}
+
+.ekran .navbar a.active {
+  background-color: brown;
+  color: white;
+}
+/* **************************içerik bölümü****************** */
+.icerik {
+  padding: 5% 20% 5% 20%;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+.icerik h1 {
+  color: rgba(0, 0, 0, 0.753);
+  font-style: italic;
+}
+.icerik h2 {
+  color: rgb(41, 26, 26);
+}
+
+.icerik video {
+  width: 95%;
+  height: 70%;
+  border: outset 10px;
+  border-color: rgba(0, 0, 255, 0.219);
+  border-radius: 20%;
+}
+
+.ekran .icerik .tanitim {
+  font-size: 28px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* *****************gel gör **********************/
+.ekran .icerik .responsive .gallery{
+  border-style: solid;
+  border-radius: 10%;
+  border-color: rgba(206, 206, 206, 0.76);
+  border: 0px;
+  background-color: rgb(136, 136, 136);
+  margin: 5px;
+
+}
+.ekran .icerik .responsive .gallery :hover {
+  transform: scale(1.2);
+  bottom: 20px;
+  
+}
+
+.ekran .icerik .responsive .gallery img {
+  width: 100%;
+  border-style: none;
+  border-radius: 10%;
+  max-width: 800px;
+  height: auto;
+  transition: all 0.5s;
+  position: relative;
+  left: 0px;
+  
+}
+
+.desc {
+  padding: 1px;
+  text-align: center;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+/* ****************footer**************** */
+
+.footer {
+  position: absolute;
+  background-color: rgb(48, 48, 48);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+#box1 {
+  padding: 10px;
+  float: right;
+  width: 50%;
+}
+#box2 {
+  float: left;
+  width: 50%;
+}
+
+/* ********************************************media quary************************************* */
+
+@media screen and (max-width: 768px) {
+  #box1 {
+    width: 100%;
+  }
+  #box2 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+/* *********************************************************************************************** */
